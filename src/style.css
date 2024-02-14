@@ -1,0 +1,134 @@
+
+.main{
+    display: grid;
+    width: 100%;
+    
+}
+
+.lucky {
+    display: flex;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    justify-content:flex-start;
+    font-size: 25px;
+  }
+  .info{
+    color: #FBF3F0;
+  }
+
+
+.btn-primary{
+    background-color:#F4BD9F;
+    border-color: #F4BD9F;
+}
+
+body {
+    /* background-color: #FBF3F0;
+     */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+  }
+
+header {
+    background-color: #F4BD9F;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+/*   Nav    */
+.social nav ul{
+    list-style-type: none;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    text-align: right;
+
+
+}
+.social nav ul li{
+    display: inline;
+
+}
+.social nav ul li a{
+    text-decoration:none;
+    color: #A0C0A9;
+    font-style: bold;
+    margin: 2%;
+}
+
+.updates{
+    background-color: #A0C0A9;
+    padding-left: 15%;
+    padding-top: 5% ;
+    padding-bottom: 5% ;
+
+}
+
+/*Grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 10px; 
+    padding: 10px; 
+  }
+  
+  .box {
+    background-color: #f0f0f0; 
+     padding: 0; 
+    border-radius: 10px; 
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .box3{
+    padding-top: 20px ;
+  }
+
+  .finalBoton{
+    margin-left: 10%;
+    background-color: #F4BD9F;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+  }
+  .input-group-append {
+    margin-left: 2%; 
+}
+
+
+.inputFinal{
+    width: 40%;
+    
+    
+  }
+  .updatesRow{
+    margin-left: 40%;
+    margin-bottom: 2%;
+  }
+
+.maincontent{
+    padding: 5%;
+    background-color: #F8E0D6;
+    text-align: center;
+   
+    
+}
+
+/**/
+
+
+.content{
+    background-color: #FBF3F0;
+    padding: 5%;
+}
+
+@media screen and (min-width: 320px) {
+    /* div {
+    padding: 1rem 3rem;
+    } */
+    }
